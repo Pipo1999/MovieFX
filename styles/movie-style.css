@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.900);
+}
+
+header {
+    position: relative;
+    width: 100%;
+    line-height: 4em;
+    background-color: black;
+    border-bottom: solid red 3px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+header h1 {
+    margin: 0;
+    margin-left: 10px;
+    width: 3.8em;
+    font-size: 32px;
+    color: white;
+    text-decoration: underline blueviolet;
+}
+
+a h1:hover {
+    background-color: rgba(128, 128, 128, 0.507);
+}
+
+h2 {
+    font-size: 50px;
+    color: rgb(147, 236, 29);
+    border-left: solid rgba(252, 105, 105, 0.747) 10px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    margin-left: 40px;
+    padding-left: 20px;
+}
+
+p {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(207, 205, 205);
+    margin: 4%;
+}
+
+img {
+    float: left;
+    margin-right: 30px;
+    ;
+    border: inset dimgrey 10px;
+    box-shadow: black 10px 10px 10px;
+}
+
+input {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#btnB {
+    background-color: red;
+}
+
+#btnE {
+    background-color: aquamarine;
+}
