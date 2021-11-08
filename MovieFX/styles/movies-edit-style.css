@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.900);
+}
+
+header {
+    position: relative;
+    width: 100%;
+    line-height: 4em;
+    background-color: black;
+    border-bottom: solid red 3px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+header h1 {
+    margin: 0;
+    margin-left: 10px;
+    width: 3.8em;
+    font-size: 32px;
+    color: white;
+    text-decoration: underline blueviolet;
+}
+
+a h1:hover {
+    background-color: rgba(128, 128, 128, 0.507);
+}
+
+#main h1 {
+    margin-left: 10px;
+    text-align: center;
+    text-decoration: underline blueviolet;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main {
+    margin-top: 30px;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: rgb(139, 175, 175);
+    border: inset grey 5px;
+    box-shadow: 10px 10px 10px;
+}
+
+div {
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+label {
+    font-size: 20px;
+}
+
+a {
+    font-size: 30px;
+    font-weight: bold;
+}
